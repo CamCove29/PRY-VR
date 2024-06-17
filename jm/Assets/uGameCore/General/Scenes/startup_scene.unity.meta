@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 3133efe2cd259af46ba5c9568c9edc31
+timeCreated: 1461425243
+licenseType: Store
+DefaultImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 96542
+  packageName: uGameCore
+  packageVersion: 1.0
+  assetPath: Assets/uGameCore/General/Scenes/startup_scene.unity
+  uploadId: 195509

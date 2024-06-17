@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 0ef0332ce52036a4c897f8f94dcf5008
+timeCreated: 1455027495
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 96542
+  packageName: uGameCore
+  packageVersion: 1.0
+  assetPath: Assets/uGameCore/GamePlay/Projectiles/Prefabs/BulletImpactExplosion.prefab
+  uploadId: 195509

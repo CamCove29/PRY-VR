@@ -1,0 +1,675 @@
+Using pre-set license
+Built from '2023.2/staging' branch; Version is '2023.2.18f1 (1cb755715f58) revision 1881941'; Using compiler version '193431935'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22631) 64bit CoreSingleLanguage' Language: 'es' Physical Memory: 16163 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2023.2.18f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker15
+-projectPath
+C:/Users/Camila/Documents/GitHub/PRY-VR/PRY-NINJA
+-logFile
+Logs/AssetImportWorker15.log
+-srvPort
+57176
+-job-worker-count
+7
+-background-job-worker-count
+8
+-asset-garbage-collectors
+1
+Successfully changed project path to: C:/Users/Camila/Documents/GitHub/PRY-VR/PRY-NINJA
+C:/Users/Camila/Documents/GitHub/PRY-VR/PRY-NINJA
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [46964] Host "[IP] 192.168.56.1 [Port] 0 [Flags] 2 [Guid] 1137739002 [EditorId] 1137739002 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-55APQ7B7) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [46964] Host "[IP] 192.168.56.1 [Port] 0 [Flags] 2 [Guid] 1137739002 [EditorId] 1137739002 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-55APQ7B7) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+JobSystem: Creating JobQueue using job-worker-count value 7
+[Physics::Module] Initialized MultithreadedJobDispatcher with 7 workers.
+Library Redirect Path: Library/
+Refreshing native plugins compatible for Editor in 47.23 ms, found 9 plugins.
+Preloading 2 native plugins for Editor in 6.44 ms.
+Initialize engine version: 2023.2.18f1 (1cb755715f58)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2023.2.18f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/Camila/Documents/GitHub/PRY-VR/PRY-NINJA/Assets
+GfxDevice: creating device client; kGfxThreadingModeNonThreaded
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 3060 Laptop GPU (ID=0x2520)
+    Vendor:   NVIDIA
+    VRAM:     6023 MB
+    Driver:   27.21.14.6262
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Shader 'Meta/MRUK/Scene/HighlightsAndShadows': fallback shader 'Off' not found
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2023.2.18f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2023.2.18f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2023.2.18f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56288
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2023.2.18f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2023.2.18f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2023.2.18f1/Editor/Data/PlaybackEngines/MetroSupport/UnityEditor.UWP.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2023.2.18f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2023.2.18f1/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2023.2.18f1/Editor/Data/PlaybackEngines/LinuxStandaloneSupport/UnityEditor.LinuxStandalone.Extensions.dll
+Registered in 0.031435 seconds.
+- Loaded All Assemblies, in  1.079 seconds
+Native extension for LinuxStandalone target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Android Extension - Scanning For ADB Devices 826 ms
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.608 seconds
+Domain Reload Profiling: 2681ms
+	BeginReloadAssembly (378ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (2ms)
+	RebuildCommonClasses (85ms)
+	RebuildNativeTypeToScriptingClass (33ms)
+	initialDomainReloadingComplete (144ms)
+	LoadAllAssembliesAndSetupDomain (433ms)
+		LoadAssemblies (372ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (426ms)
+			TypeCache.Refresh (424ms)
+				TypeCache.ScanAssembly (396ms)
+			BuildScriptInfoCaches (0ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (1608ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1478ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (1079ms)
+			SetLoadedEditorAssemblies (6ms)
+			BeforeProcessingInitializeOnLoad (7ms)
+			ProcessInitializeOnLoadAttributes (275ms)
+			ProcessInitializeOnLoadMethodAttributes (111ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Import Worker Mode flag is 0x00
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  2.302 seconds
+Refreshing native plugins compatible for Editor in 7.17 ms, found 9 plugins.
+Native extension for LinuxStandalone target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Package Manager log level set to [2]
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.357 seconds
+Domain Reload Profiling: 3652ms
+	BeginReloadAssembly (941ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (13ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (53ms)
+	RebuildCommonClasses (63ms)
+	RebuildNativeTypeToScriptingClass (27ms)
+	initialDomainReloadingComplete (63ms)
+	LoadAllAssembliesAndSetupDomain (1200ms)
+		LoadAssemblies (840ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (530ms)
+			TypeCache.Refresh (439ms)
+				TypeCache.ScanAssembly (407ms)
+			BuildScriptInfoCaches (62ms)
+			ResolveRequiredComponents (23ms)
+	FinalizeReload (1357ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1085ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (39ms)
+			SetLoadedEditorAssemblies (10ms)
+			BeforeProcessingInitializeOnLoad (123ms)
+			ProcessInitializeOnLoadAttributes (875ms)
+			ProcessInitializeOnLoadMethodAttributes (27ms)
+			AfterProcessingInitializeOnLoad (11ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (15ms)
+Shader 'Meta/MRUK/Scene/HighlightsAndShadows': fallback shader 'Off' not found
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.02 seconds
+Refreshing native plugins compatible for Editor in 16.08 ms, found 9 plugins.
+Preloading 2 native plugins for Editor in 0.22 ms.
+Unloading 108 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 5114 unused Assets / (1.4 MB). Loaded Objects now: 5792.
+Memory consumption went from 160.1 MB to 158.7 MB.
+Total: 13.250900 ms (FindLiveObjects: 1.117900 ms CreateObjectMapping: 1.197100 ms MarkObjects: 8.652600 ms  DeleteObjects: 2.281400 ms)
+
+========================================================================
+Received Prepare
+Shader 'Meta/MRUK/Scene/HighlightsAndShadows': fallback shader 'Off' not found
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Refreshing native plugins compatible for Editor in 13.30 ms, found 9 plugins.
+Preloading 2 native plugins for Editor in 0.18 ms.
+Unloading 4 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 5079 unused Assets / (1.4 MB). Loaded Objects now: 5794.
+Memory consumption went from 134.4 MB to 133.0 MB.
+Total: 15.503900 ms (FindLiveObjects: 0.993800 ms CreateObjectMapping: 0.783300 ms MarkObjects: 10.988600 ms  DeleteObjects: 2.735200 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 623592.015641 seconds.
+  path: Assets/_TerrainAutoUpgrade/layer_GrassHillAlbedo3d3aba195e4d26ee.terrainlayer
+  artifactKey: Guid(a80320f34d3b99c49b8d2fec8cce6adb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_TerrainAutoUpgrade/layer_GrassHillAlbedo3d3aba195e4d26ee.terrainlayer using Guid(a80320f34d3b99c49b8d2fec8cce6adb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '55b7eeb8609fc571f47d575ca20a426a') in 0.1384848 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 10.715694 seconds.
+  path: Assets/RealisticGrenadesPack/Env/CubeStand.mat
+  artifactKey: Guid(bdada10fc4fc34b4ebd33404371812a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RealisticGrenadesPack/Env/CubeStand.mat using Guid(bdada10fc4fc34b4ebd33404371812a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8647a82295cc394c7748e432822d492c') in 0.1419464 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.782406 seconds.
+  path: Assets/RealisticGrenadesPack/M26/Grenade_M26.fbx
+  artifactKey: Guid(31f3d55055bba9443b8439d272a0da30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RealisticGrenadesPack/M26/Grenade_M26.fbx using Guid(31f3d55055bba9443b8439d272a0da30) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1e28abbef933b5535476135b20a782fb') in 0.1203779 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/RealisticGrenadesPack/M26/Grenade_M26_s.fbx
+  artifactKey: Guid(0944ab39b9ae1ba4ea3fb6b34e3dedbc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RealisticGrenadesPack/M26/Grenade_M26_s.fbx using Guid(0944ab39b9ae1ba4ea3fb6b34e3dedbc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8be0b1c5f9410ba54f5acf8c6c89080d') in 0.0744298 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 22
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.961962 seconds.
+  path: Assets/RealisticGrenadesPack/M26/Textures
+  artifactKey: Guid(7b4a88bdafb8c914b96cd5cddb9129e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RealisticGrenadesPack/M26/Textures using Guid(7b4a88bdafb8c914b96cd5cddb9129e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'dafb4e3e111c3fb3eb4dc63f4d49718f') in 0.0018249 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.596697 seconds.
+  path: Assets/RealisticGrenadesPack/M26/Materials
+  artifactKey: Guid(c13d8a1f9f250634bad16427fe2bf2b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RealisticGrenadesPack/M26/Materials using Guid(c13d8a1f9f250634bad16427fe2bf2b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'af1523cf35505634f23dd73e8d7baf1f') in 0.0012377 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.077151 seconds.
+  path: Assets/RealisticGrenadesPack/M26/Materials/Grenade4.mat
+  artifactKey: Guid(62dbf831bdfb72e4ab6e0ae1f3a7cc45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RealisticGrenadesPack/M26/Materials/Grenade4.mat using Guid(62dbf831bdfb72e4ab6e0ae1f3a7cc45) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0927ea9dd49421c2dbc06ac7b51a8973') in 0.0368356 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.508803 seconds.
+  path: Assets/RealisticGrenadesPack/M26/Textures/M26_AlbedoTransparency_1024.png
+  artifactKey: Guid(5f937494e57c24a40b4d049149fdbed1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RealisticGrenadesPack/M26/Textures/M26_AlbedoTransparency_1024.png using Guid(5f937494e57c24a40b4d049149fdbed1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a3fc37534bcdb8812fbc099d5c4010a0') in 0.0517498 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.010971 seconds.
+  path: Assets/RealisticGrenadesPack/M26/Textures/M26_MetallicSmoothness_2048.png
+  artifactKey: Guid(2be6085c7b06b9f45898ad99d82b5124) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RealisticGrenadesPack/M26/Textures/M26_MetallicSmoothness_2048.png using Guid(2be6085c7b06b9f45898ad99d82b5124) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f6590734492ab24db8ab6b8f8d73d31f') in 0.0838396 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000182 seconds.
+  path: Assets/RealisticGrenadesPack/M26/Textures/M26_Normal_1024.png
+  artifactKey: Guid(3b232b21c68ea7f4389c455050a977db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RealisticGrenadesPack/M26/Textures/M26_Normal_1024.png using Guid(3b232b21c68ea7f4389c455050a977db) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3031b97e5b5e1b019b8c6a68e428c456') in 0.0481979 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.706703 seconds.
+  path: Assets/RealisticGrenadesPack/Env/Materials/WeatheredWood.mat
+  artifactKey: Guid(ffbc6885515257e489c12fb8cccbf7e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RealisticGrenadesPack/Env/Materials/WeatheredWood.mat using Guid(ffbc6885515257e489c12fb8cccbf7e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '691ba2756a61ee66de8d7a55a1c73c9e') in 0.0321506 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Prepare
+Shader 'Meta/MRUK/Scene/HighlightsAndShadows': fallback shader 'Off' not found
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Refreshing native plugins compatible for Editor in 10.53 ms, found 9 plugins.
+Preloading 2 native plugins for Editor in 0.21 ms.
+Unloading 4 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 5080 unused Assets / (1.5 MB). Loaded Objects now: 5846.
+Memory consumption went from 136.0 MB to 134.5 MB.
+Total: 19.694700 ms (FindLiveObjects: 0.958800 ms CreateObjectMapping: 1.141800 ms MarkObjects: 14.167800 ms  DeleteObjects: 3.423000 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Shader 'Meta/MRUK/Scene/HighlightsAndShadows': fallback shader 'Off' not found
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Refreshing native plugins compatible for Editor in 10.47 ms, found 9 plugins.
+Preloading 2 native plugins for Editor in 0.18 ms.
+Unloading 4 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 5081 unused Assets / (1.5 MB). Loaded Objects now: 5847.
+Memory consumption went from 136.0 MB to 134.5 MB.
+Total: 16.693900 ms (FindLiveObjects: 0.889400 ms CreateObjectMapping: 0.921700 ms MarkObjects: 12.009100 ms  DeleteObjects: 2.871300 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 971.441626 seconds.
+  path: Assets/RealisticGrenadesPack/Standard Assets/Effects/ImageEffects/Scripts/ColorCorrectionCurves.cs
+  artifactKey: Guid(0de481954f4abaf49a34874d7576b787) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RealisticGrenadesPack/Standard Assets/Effects/ImageEffects/Scripts/ColorCorrectionCurves.cs using Guid(0de481954f4abaf49a34874d7576b787) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '14b113900df3377a7ae918e5eb6dd5ca') in 0.011223 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.401060 seconds.
+  path: Assets/RealisticGrenadesPack/Standard Assets/Effects/ImageEffects/Scripts/ScreenSpaceAmbientOcclusion.cs
+  artifactKey: Guid(73f4836f176e057468d5e974b6ec7b4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RealisticGrenadesPack/Standard Assets/Effects/ImageEffects/Scripts/ScreenSpaceAmbientOcclusion.cs using Guid(73f4836f176e057468d5e974b6ec7b4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4d2a9a5ca3cefc45eb6be762ae582352') in 0.0018396 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 28.473619 seconds.
+  path: Assets/RealisticGrenadesPack/Standard Assets/Effects/ImageEffects/Scripts
+  artifactKey: Guid(a4cf59789b15c3944af121f05a391046) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RealisticGrenadesPack/Standard Assets/Effects/ImageEffects/Scripts using Guid(a4cf59789b15c3944af121f05a391046) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'fdcbd7be03963299ed410e6346227f95') in 0.0012476 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Prepare
+Shader 'Meta/MRUK/Scene/HighlightsAndShadows': fallback shader 'Off' not found
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Refreshing native plugins compatible for Editor in 9.90 ms, found 9 plugins.
+Preloading 2 native plugins for Editor in 0.19 ms.
+Unloading 4 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 5082 unused Assets / (1.6 MB). Loaded Objects now: 5848.
+Memory consumption went from 136.0 MB to 134.4 MB.
+Total: 14.619400 ms (FindLiveObjects: 0.885600 ms CreateObjectMapping: 1.082500 ms MarkObjects: 9.873300 ms  DeleteObjects: 2.775800 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 16.332319 seconds.
+  path: Assets/RealisticGrenadesPack/Standard Assets/Effects/ImageEffects/Scripts/Grenade Launch System.cs
+  artifactKey: Guid(5c14e66db64d9874c882bcc7c1568d55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RealisticGrenadesPack/Standard Assets/Effects/ImageEffects/Scripts/Grenade Launch System.cs using Guid(5c14e66db64d9874c882bcc7c1568d55) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8bac3cbd9ce97d83084e9617c936fdaf') in 0.0074426 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Prepare
+Shader 'Meta/MRUK/Scene/HighlightsAndShadows': fallback shader 'Off' not found
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Refreshing native plugins compatible for Editor in 12.21 ms, found 9 plugins.
+Preloading 2 native plugins for Editor in 0.28 ms.
+Unloading 4 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 5082 unused Assets / (2.3 MB). Loaded Objects now: 5848.
+Memory consumption went from 136.0 MB to 133.7 MB.
+Total: 16.771800 ms (FindLiveObjects: 0.751600 ms CreateObjectMapping: 0.651300 ms MarkObjects: 11.954100 ms  DeleteObjects: 3.411800 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 131.567545 seconds.
+  path: Assets/RealisticGrenadesPack/Standard Assets/Effects/ImageEffects/Scripts/Grenade Launch System.cs
+  artifactKey: Guid(5c14e66db64d9874c882bcc7c1568d55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RealisticGrenadesPack/Standard Assets/Effects/ImageEffects/Scripts/Grenade Launch System.cs using Guid(5c14e66db64d9874c882bcc7c1568d55) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a583a368fb51f3696ce0096fb77e7e7b') in 0.0071071 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.542064 seconds.
+  path: Assets/RealisticGrenadesPack/Standard Assets/Effects/ImageEffects/Scripts/Grenade Launch System.cs
+  artifactKey: Guid(5c14e66db64d9874c882bcc7c1568d55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RealisticGrenadesPack/Standard Assets/Effects/ImageEffects/Scripts/Grenade Launch System.cs using Guid(5c14e66db64d9874c882bcc7c1568d55) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a583a368fb51f3696ce0096fb77e7e7b') in 0.0015013 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Prepare
+Shader 'Meta/MRUK/Scene/HighlightsAndShadows': fallback shader 'Off' not found
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Refreshing native plugins compatible for Editor in 9.75 ms, found 9 plugins.
+Preloading 2 native plugins for Editor in 0.21 ms.
+Unloading 4 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 5082 unused Assets / (2.2 MB). Loaded Objects now: 5848.
+Memory consumption went from 136.0 MB to 133.8 MB.
+Total: 16.596800 ms (FindLiveObjects: 0.978000 ms CreateObjectMapping: 0.871500 ms MarkObjects: 10.810800 ms  DeleteObjects: 3.934700 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 116.743274 seconds.
+  path: Assets/RealisticGrenadesPack/Standard Assets/Effects/ImageEffects/Scripts/GrenadeLaunchSystem.cs
+  artifactKey: Guid(5c14e66db64d9874c882bcc7c1568d55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RealisticGrenadesPack/Standard Assets/Effects/ImageEffects/Scripts/GrenadeLaunchSystem.cs using Guid(5c14e66db64d9874c882bcc7c1568d55) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7b23de2c49abce3615d9a497b02cb25c') in 0.0057767 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Prepare
+Shader 'Meta/MRUK/Scene/HighlightsAndShadows': fallback shader 'Off' not found
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Refreshing native plugins compatible for Editor in 10.82 ms, found 9 plugins.
+Preloading 2 native plugins for Editor in 0.21 ms.
+Unloading 4 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 5082 unused Assets / (1.8 MB). Loaded Objects now: 5848.
+Memory consumption went from 136.0 MB to 134.3 MB.
+Total: 17.206900 ms (FindLiveObjects: 1.157700 ms CreateObjectMapping: 1.208900 ms MarkObjects: 11.764700 ms  DeleteObjects: 3.073500 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 67.662385 seconds.
+  path: Assets/RealisticGrenadesPack/Standard Assets/Effects/ImageEffects/Scripts/GrenadeLauncher.cs
+  artifactKey: Guid(5c14e66db64d9874c882bcc7c1568d55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RealisticGrenadesPack/Standard Assets/Effects/ImageEffects/Scripts/GrenadeLauncher.cs using Guid(5c14e66db64d9874c882bcc7c1568d55) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2f172f0ceb913877d76b2f397bd4da06') in 0.00512 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Prepare
+Shader 'Meta/MRUK/Scene/HighlightsAndShadows': fallback shader 'Off' not found
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Refreshing native plugins compatible for Editor in 9.79 ms, found 9 plugins.
+Preloading 2 native plugins for Editor in 0.19 ms.
+Unloading 4 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 5082 unused Assets / (1.4 MB). Loaded Objects now: 5848.
+Memory consumption went from 136.0 MB to 134.6 MB.
+Total: 15.743800 ms (FindLiveObjects: 0.762400 ms CreateObjectMapping: 1.020200 ms MarkObjects: 11.071700 ms  DeleteObjects: 2.886300 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Shader 'Meta/MRUK/Scene/HighlightsAndShadows': fallback shader 'Off' not found
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Refreshing native plugins compatible for Editor in 9.55 ms, found 9 plugins.
+Preloading 2 native plugins for Editor in 0.22 ms.
+Unloading 4 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 5083 unused Assets / (1.7 MB). Loaded Objects now: 5849.
+Memory consumption went from 136.0 MB to 134.4 MB.
+Total: 17.147900 ms (FindLiveObjects: 1.064400 ms CreateObjectMapping: 1.657100 ms MarkObjects: 11.342800 ms  DeleteObjects: 3.081700 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Shader 'Meta/MRUK/Scene/HighlightsAndShadows': fallback shader 'Off' not found
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Refreshing native plugins compatible for Editor in 6.64 ms, found 9 plugins.
+Preloading 2 native plugins for Editor in 0.16 ms.
+Unloading 4 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 5083 unused Assets / (1.6 MB). Loaded Objects now: 5849.
+Memory consumption went from 136.0 MB to 134.4 MB.
+Total: 18.382600 ms (FindLiveObjects: 0.892100 ms CreateObjectMapping: 0.702000 ms MarkObjects: 13.695600 ms  DeleteObjects: 3.089500 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 420.968375 seconds.
+  path: Assets/f.cs
+  artifactKey: Guid(c8026113e39e5234db4c6d05a6e851e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/f.cs using Guid(c8026113e39e5234db4c6d05a6e851e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e5ca027da70511ca30184c01129d883c') in 0.0321345 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Prepare
+Shader 'Meta/MRUK/Scene/HighlightsAndShadows': fallback shader 'Off' not found
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Refreshing native plugins compatible for Editor in 11.74 ms, found 9 plugins.
+Preloading 2 native plugins for Editor in 0.22 ms.
+Unloading 4 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 5082 unused Assets / (1.6 MB). Loaded Objects now: 5848.
+Memory consumption went from 136.0 MB to 134.4 MB.
+Total: 16.178900 ms (FindLiveObjects: 0.951000 ms CreateObjectMapping: 1.160300 ms MarkObjects: 11.010100 ms  DeleteObjects: 3.055400 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 9.118319 seconds.
+  path: Assets
+  artifactKey: Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets using Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f34163397d7a73dad3366c662ac23692') in 0.007858 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.778233 seconds.
+  path: Assets/GrenadeLauncher.cs
+  artifactKey: Guid(799eb5c3fd9f95b478d40e55859d5475) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GrenadeLauncher.cs using Guid(799eb5c3fd9f95b478d40e55859d5475) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '27e120b9ddc533221a467857b480581c') in 0.0028351 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.951510 seconds.
+  path: Assets/GrenadeLaunchSystem.cs
+  artifactKey: Guid(841293163f33338409c7fd9e7e185d4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GrenadeLaunchSystem.cs using Guid(841293163f33338409c7fd9e7e185d4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4f7e14acebb73282c3cbc9a387668e7f') in 0.0029235 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Prepare
+Shader 'Meta/MRUK/Scene/HighlightsAndShadows': fallback shader 'Off' not found
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Refreshing native plugins compatible for Editor in 10.47 ms, found 9 plugins.
+Preloading 2 native plugins for Editor in 0.29 ms.
+Unloading 4 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 5081 unused Assets / (1.6 MB). Loaded Objects now: 5847.
+Memory consumption went from 136.0 MB to 134.5 MB.
+Total: 17.201200 ms (FindLiveObjects: 1.527500 ms CreateObjectMapping: 1.292000 ms MarkObjects: 11.061600 ms  DeleteObjects: 3.317700 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 6.795292 seconds.
+  path: Assets/GrenadeLauncher.cs
+  artifactKey: Guid(799eb5c3fd9f95b478d40e55859d5475) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GrenadeLauncher.cs using Guid(799eb5c3fd9f95b478d40e55859d5475) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '27e120b9ddc533221a467857b480581c') in 0.0060928 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Prepare
+Shader 'Meta/MRUK/Scene/HighlightsAndShadows': fallback shader 'Off' not found
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Refreshing native plugins compatible for Editor in 10.23 ms, found 9 plugins.
+Preloading 2 native plugins for Editor in 0.21 ms.
+Unloading 4 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 5081 unused Assets / (1.7 MB). Loaded Objects now: 5847.
+Memory consumption went from 136.0 MB to 134.3 MB.
+Total: 17.628300 ms (FindLiveObjects: 0.782600 ms CreateObjectMapping: 0.667100 ms MarkObjects: 13.139000 ms  DeleteObjects: 3.036900 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 775.306573 seconds.
+  path: Assets/RealisticGrenadesPack/M67/Grenade_M67.fbx
+  artifactKey: Guid(a74e5009e96f86c4b85a4df31da105b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RealisticGrenadesPack/M67/Grenade_M67.fbx using Guid(a74e5009e96f86c4b85a4df31da105b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '45aaf7161581a7260e1e3ccc560742d3') in 0.2545705 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/RealisticGrenadesPack/Props/GrenadeCrate.fbx
+  artifactKey: Guid(e2fa4db1994ea4447b76b33800178360) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RealisticGrenadesPack/Props/GrenadeCrate.fbx using Guid(e2fa4db1994ea4447b76b33800178360) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '07dec71765ef76046e2153fb88845d67') in 0.0970992 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 27
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000156 seconds.
+  path: Assets/RealisticGrenadesPack/Mk2/Grenade_Mk2_s.fbx
+  artifactKey: Guid(ae4665ffc44f0f04bb157c01e24292f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RealisticGrenadesPack/Mk2/Grenade_Mk2_s.fbx using Guid(ae4665ffc44f0f04bb157c01e24292f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2d254c6386709adb50d9b3c786d5acfd') in 0.0635471 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 22
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/RealisticGrenadesPack/Mk2/Grenade_Mk2.fbx
+  artifactKey: Guid(6891174cb71520342bc19d130dd80bdb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RealisticGrenadesPack/Mk2/Grenade_Mk2.fbx using Guid(6891174cb71520342bc19d130dd80bdb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1cb98e19f5d8413a0df29f76584a9670') in 0.0331208 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000090 seconds.
+  path: Assets/RealisticGrenadesPack/Props/GrenadeCrateLid.fbx
+  artifactKey: Guid(441b10ab80a9c074ba35e2b2a9854e2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RealisticGrenadesPack/Props/GrenadeCrateLid.fbx using Guid(441b10ab80a9c074ba35e2b2a9854e2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'cf3d21e132b19312d2786d4920fc2b18') in 0.0290441 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.140157 seconds.
+  path: Assets/Waldemarst/JapaneseGardenPackage/Textures/GrassBillboards/billboardgrass0001.png
+  artifactKey: Guid(32481d860dff7ed828966e30763ee5f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Waldemarst/JapaneseGardenPackage/Textures/GrassBillboards/billboardgrass0001.png using Guid(32481d860dff7ed828966e30763ee5f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '53f4e80af93ef64e10e7b1fe116e07bd') in 0.0428361 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.027456 seconds.
+  path: Assets/Waldemarst/JapaneseGardenPackage/Textures/brocco_jg_grass_02.jpg
+  artifactKey: Guid(c17ae82b5a9d347bc92c4efa4b67d3f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Waldemarst/JapaneseGardenPackage/Textures/brocco_jg_grass_02.jpg using Guid(c17ae82b5a9d347bc92c4efa4b67d3f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3ea9b916325139393c6345f4454a5a2e') in 0.0502345 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Waldemarst/JapaneseGardenPackage/Textures/brocco_jg_grass_03.jpg
+  artifactKey: Guid(b89a2517f3ca540868b98333dffaef17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Waldemarst/JapaneseGardenPackage/Textures/brocco_jg_grass_03.jpg using Guid(b89a2517f3ca540868b98333dffaef17) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'eb30cd43eea3556f595a27513f559d42') in 0.034104 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000135 seconds.
+  path: Assets/RealisticGrenadesPack/Standard Assets/Environment/TerrainAssets/SurfaceTextures/GrassHillAlbedo.psd
+  artifactKey: Guid(26543065ff416094eb54965f3d4428e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RealisticGrenadesPack/Standard Assets/Environment/TerrainAssets/SurfaceTextures/GrassHillAlbedo.psd using Guid(26543065ff416094eb54965f3d4428e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd8fe7617d8cd1e404ebc72eb565e19a4') in 0.0209025 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Waldemarst/JapaneseGardenPackage/Materials/brocco_jg_grass_01.mat
+  artifactKey: Guid(9f14e308898371238a84a2c559d3a217) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Waldemarst/JapaneseGardenPackage/Materials/brocco_jg_grass_01.mat using Guid(9f14e308898371238a84a2c559d3a217) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f3a2b980025fe358d9dcc5b9115f2246') in 0.0545434 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000100 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Textures/Gradient Vertical (Color).jpg
+  artifactKey: Guid(03d0538de6e24c0f819bfc9ce084dfa9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Examples & Extras/Textures/Gradient Vertical (Color).jpg using Guid(03d0538de6e24c0f819bfc9ce084dfa9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'dd9a08a534fe7e178dd6b3dde7057fc5') in 0.0229404 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000167 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Textures/Gradient Horizontal (Color).jpg
+  artifactKey: Guid(6eb184de103d4b3f812b38561065192f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Examples & Extras/Textures/Gradient Horizontal (Color).jpg using Guid(6eb184de103d4b3f812b38561065192f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4f1560021a7b23fa217336e1003a7882') in 0.0195742 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000323 seconds.
+  path: Assets/Waldemarst/JapaneseGardenPackage/Materials/brocco_jg_grass_03.mat
+  artifactKey: Guid(caa5a0a3cca623af391273878a049f01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Waldemarst/JapaneseGardenPackage/Materials/brocco_jg_grass_03.mat using Guid(caa5a0a3cca623af391273878a049f01) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1c1d3e26928eab2569c13a4e747908d3') in 0.0291969 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 23.630686 seconds.
+  path: Assets/RealisticGrenadesPack/Grenade.unity
+  artifactKey: Guid(1e4d3b7259753aa4d8bbe7ad393471ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RealisticGrenadesPack/Grenade.unity using Guid(1e4d3b7259753aa4d8bbe7ad393471ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '56dfa16e139e13ab730cf947ad5599ce') in 0.0018993 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 12.366742 seconds.
+  path: Assets/RealisticGrenadesPack/Stun
+  artifactKey: Guid(4643846bf5896b6478d3a2f3dc6373b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RealisticGrenadesPack/Stun using Guid(4643846bf5896b6478d3a2f3dc6373b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f708218e4988e1d5d8bd9555acefd98c') in 0.001045 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.825557 seconds.
+  path: Assets/RealisticGrenadesPack/Stun/StunGrenade.fbx
+  artifactKey: Guid(98be6ff539d1fa44894f66e5d0a5f007) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RealisticGrenadesPack/Stun/StunGrenade.fbx using Guid(98be6ff539d1fa44894f66e5d0a5f007) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a954ed8db5cfed87a545ed57d1f230c4') in 0.0504542 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0

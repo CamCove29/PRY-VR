@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: f24076d5b748c41c092804e4764deb23
+timeCreated: 1493818375
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 96542
+  packageName: uGameCore
+  packageVersion: 1.0
+  assetPath: Assets/uGameCore/General/Prefabs/PlayingObjectSetter.prefab
+  uploadId: 195509

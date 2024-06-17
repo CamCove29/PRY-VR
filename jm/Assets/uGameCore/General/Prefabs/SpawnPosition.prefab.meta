@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 0027c527a420c494d80219ac87f0f142
+timeCreated: 1461539749
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 96542
+  packageName: uGameCore
+  packageVersion: 1.0
+  assetPath: Assets/uGameCore/General/Prefabs/SpawnPosition.prefab
+  uploadId: 195509

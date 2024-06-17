@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 79218f621f70a4b9ba11496f6d5202c2
+timeCreated: 1500208123
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 96542
+  packageName: uGameCore
+  packageVersion: 1.0
+  assetPath: Assets/uGameCore/Commands/Prefabs/CommandManager.prefab
+  uploadId: 195509

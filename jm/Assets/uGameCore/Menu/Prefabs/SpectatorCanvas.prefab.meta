@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 59deed53436c54b118605360255ab486
+timeCreated: 1500136276
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 96542
+  packageName: uGameCore
+  packageVersion: 1.0
+  assetPath: Assets/uGameCore/Menu/Prefabs/SpectatorCanvas.prefab
+  uploadId: 195509
